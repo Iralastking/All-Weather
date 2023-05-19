@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <title>All Weather</title>
+</head>
+<body>
+  <section class="container">
+    <section id="weather-display">
+
+        <div class= "row ">
+        <div class="col-3">
+          
+        <h1>All Weather</h1>
+        <div class="weather-info">
+          <span class="location"> </span>
+          <span class="temperature"> </span>
+          <span class="condition"> </span>
+       
+        <form id="search-form">
+          <input type="search" id="search-input" placeholder="Enter city" />
+          <button type="button"id="search-button" class="button">Search</button>
+        </form>
+
+          <div class="d-grid gap-2 col-6 ">
+            <button type="button" class="btn btn-info btn-lg">Orlando</button>
+         
+         
+            <button type="button" class="btn btn-secondary btn-lg">Tampa</button>
+          
+         
+            <button type="button" class="btn btn-primary btn-lg">New York</button>
+          
+          
+            <button type="button" class="btn btn-primary btn-lg">Texas</button>
+          
+         
+            <button type="button" class="btn btn-primary btn-lg">St. Louis</button>
+         
+          
+            <button type="button" class="btn btn-primary btn-lg">Tupelo</button>
+          
+          </div>
+        </div> 
+      </div>
+        <div class="col-9 border border-dark">
+          <h2 id="currentCityName" class="city"></h2>
+          <p><span id="currWeathericon"></span>
+            <span id="currentTemp"></span>
+          </p>
+          <p id="currentDate"></p>
+          <p id="currentDescr"></p>
+          <p>Humidity: <span id="currentHumidity"></span></p>
+          <p>Wind-Speed: <span id="currentWs"></span> mph</p>
+        </div> 
+      
+      </div>
+      <div class="row">
+        &nbsp;
+      </div>
+
+
+
+      <div class="row">
+        <!-- <div class="col-2">
+        </div> -->
+        <div class="col"> 
+          <section>
+          <div class="row">
+      
+             <div class="col text-white bg-secondary p-3">
+              <div class="h3">5/15/2023 </div>
+             <p><img src="assets/img/sun-160294_640.png" alt="" class="icon" />
+              91°C</p>
+              <p>5/15/2023</p>
+              <p>Cloudy</p>
+              <p>Humidity:85%</p>
+              <p>Wind-Speed: 15 mph</p>
+            </div>
+            <div class="col">
+              &nbsp;
+            </div>
+            <div class="col text-white bg-secondary p-3">
+              <div class="h3">5/15/2023 </div>
+              <p><img src="assets/img/sun-160294_640.png" alt="" class="icon" />
+                91°C</p>
+                <p>5/15/2023</p>
+                <p>Cloudy</p>
+                <p>Humidity:85%</p>
+                <p>Wind-Speed: 15mph</p>
+            </div>
+            <div class="col">
+              &nbsp;
+            </div>
+             <div class="col text-white bg-secondary p-3">
+              <div class="h3">5/15/2023 </div>
+              <p><img src="assets/img/sun-160294_640.png" alt="" class="icon" />
+                91°C</p>
+                <p>5/15/2023</p>
+                <p>Cloudy</p>
+                <p>Humidity:85%</p>
+                <p>Wind-Speed: 15mph</p>
+             </div>
+             <div class="col">
+              &nbsp;
+            </div>
+            <div class="col text-white bg-secondary  p-3">
+              <div class="h3">5/15/2023 </div>
+              <p><img src="assets/img/sun-160294_640.png" alt="" class="icon" />
+                91°C</p>
+                <p>5/15/2023</p>
+                <p>Cloudy</p>
+                <p>Humidity:85%</p>
+                <p>Wind-Speed: 15mph</p>
+            </div>
+            <div class="col">
+              &nbsp;
+            </div>
+            <div class=" col text-white bg-secondary p-3" >
+              <div class="h3">5/15/2023 </div>
+              <p><img src="assets/img/sun-160294_640.png" alt="" class="icon" />
+                91°C</p>
+                <p>Cloudy</p>
+                <p>Humidity:85%</p>
+                <p>Wind-Speed: 15mph</p>
+            </div>
+          </div>
+        </section></div>
+      </div>
+    
+    
+    </section>
+
+    
+  </section>
+<script src="assets/js/script.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+</body>
+</html>

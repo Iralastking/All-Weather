@@ -1,0 +1,166 @@
+/* style.css
+
+/* Global Styles */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#weather-display {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.city {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Temperature {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.Date,
+.Description,
+.Humidity,
+.Wind-Speed {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Media Query for Responsiveness */
+/* @media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  input[type="text"] {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  .city {
+    font-size: 20px;
+  }
+
+  .Temperature {
+    font-size: 36px;
+  }
+
+  .icon {
+    width: 80px;
+  }
+
+  .Date,
+  .Description,
+  .Humidity,
+  .Wind-Speed {
+    font-size: 14px;
+  }
+} */ */ */
+
+/* style.css */
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #0d0d0d;
+}
+
+h2 {
+  color: #3d23d3c7;
+}
+
+#search-form {
+  margin-bottom: 20px;
+}
+
+#city-input {
+  padding: 5px;
+  font-size: 16px;
+  width: 200px;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+#weather-display {
+  /* background-color: #485672; */
+  padding: 20px;
+  border-radius: 5px;
+  /* text-align: center; */
+}
+
+.city {
+  color: #3f2f78;
+}
+
+#Temperature {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.icon {
+  width: 50px;
+  height:50px;
+  margin: 10px auto;
+}
+
+.Date, .Description, .Humidity, .Wind-Speed {
+  margin: 5px 0;
+}
+
+.bg-fiveday {
+  color: #323d4f !important;
+
+}
